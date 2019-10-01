@@ -1,0 +1,122 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;   
+    background-image: url('../img/topic_bg2.jpg');
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-size: 1350px,100%;
+    ;
+}
+.whiteBG{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255,1));
+    top: 521px;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+    color: white
+}
+
+a:hover {
+    color: #bd070b;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 516px;
+    margin: 0 auto;
+    background-size: cover !important;
+}
+
+.top {
+    max-width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 200px;
+    position: relative;
+}
+
+.logo .logo01 {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin: 50px 0 0 0;
+    overflow: hidden;
+    z-index: 9;
+    background-image: url('../img/yd_logo.png');
+    opacity: 0.5;
+border-radius: 20px;
+}
+
+.logo .logo01 .logo_01 {
+    position: absolute;
+    width: 200px;;
+    /* background-image: url('../img/yd_logo.png'); */
+    background-color: yellow;
+    margin: 15px 0 20px 22px;
+}
+
+
+
+.nav {
+    width: 1200px;
+    height: 56px;
+    line-height: 56px;
+    background: #a62123;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav a {
+    list-style: none;
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+    height: 56px;
+    line-height: 56px;
+    padding: 0px 7%;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+/* 中间 */
+
+.bigBox1 {
+    display: block;
+    width: 1200px;
+    border: none;
+    margin: 0 auto;
+}
+
+
+
+/* 底部 */
+.footer {
+    background-color: #bd070b;
+    color: #fff;
+    overflow: hidden;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.copyRight {
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "微软雅黑";
+    padding: 45px 15px;
+    line-height: 30px;
+    font-style: normal;
+}

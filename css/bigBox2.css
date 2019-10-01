@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #bd070b;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 376px;
+    margin: 0 auto;
+    background-size: cover !important;
+}
+
+.top {
+    max-width: 1200px;
+    height: 319px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 319px;
+    position: relative;
+}
+
+.logo .logo01 {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin: 25px 0 0 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+
+.logo .logo01 .logo_01 {
+    position: absolute;
+    display: inline-block;
+    font-size: 26px;
+    width: 53%;
+    color: white;
+    line-height: 63px;
+    margin: 15px 0 20px 22px;
+}
+
+.logo .logo01 .logo_02 {
+    position: absolute;
+    display: inline-block;
+    width: 42%;
+
+    margin: 30px 0 0 200px;
+}
+
+.logo a.logo02 {
+    display: block;
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo_link {
+    width: 711px;
+    height: 319px;
+    display: block;
+}
+
+
+.nav {
+    width: 1200px;
+    height: 56px;
+    line-height: 56px;
+    background: #a62123;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav a{
+    list-style: none;
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+    height: 56px;
+    line-height: 56px;
+    padding: 0px 7%;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+/* 中间 */
+
+.bigBox1{
+    display: block;
+    width: 1200px;
+    height: 800px;
+    border: none;
+    margin: 0 auto;
+}
+
+
+
+/* 底部 */
+.footer {
+    background-color: #bd070b;
+    color: #fff;
+    overflow: hidden;
+}
+
+.copyRight {
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "微软雅黑";
+    padding: 45px 15px;
+    line-height: 30px;
+    font-style: normal;
+}

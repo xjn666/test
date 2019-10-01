@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #bd070b;
+}
+
+
+.subPage {
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.Bread {
+    width: auto;
+    height: 39px;
+    line-height: 39px;
+    font-size: 13px;
+    color: #bd070b;
+}
+
+.Bread a {
+    color: #bd070b;
+}
+
+.articleList ul {
+    margin: 10px 0 0 0;
+    display: none;
+}
+
+.articleList .active {
+    margin: 10px 0 0 0;
+    display: block;
+}
+
+.articleList ul li {
+    background: url(../img/li01_03.png) no-repeat left top 18px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+}
+
+.articleList ul li a {
+    float: left;
+    height: 40px;
+    overflow: hidden;
+    width: 80%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.articleList ul li span {
+    float: right;
+    color: #999;
+}
+
+.listTitle {
+    background: none;
+    height: 44px;
+    line-height: 44px;
+    background: #f0f0f0;
+}
+
+.listTitle h2 {
+    color: #bd070b;
+    font-size: 16px;
+    font-weight: bold;
+    height: 44px;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 44px;
+    background: url(../img/tb.png) no-repeat left 15px center #c31616;
+    padding-left: 47px;
+    color: #ffffff;
+}
+
+.subPage .articleList {
+    overflow: hidden;
+}
+
+.articleList .pageChange {
+    position: relative;
+    width: 1160px;
+    height: 50px;
+}
+
+.changeNum {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.changeNum a {
+    margin: 0 50px;
+}
+
+.changeNum .previous {}
+
+.changeNum .next {}
+.pageChange li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1;  
+    cursor: pointer; 
+}
+.pageChange li:nth-child(1){
+    position: absolute;
+    margin-top: 10px;
+    left: 545PX;
+}
+.pageChange li:nth-child(2){
+    position: absolute;
+    margin-top: 10px;
+    left: 585px;
+}
+.pageChange .active{
+    background-color: #bd070b;
+    position: absolute;
+    left: 545px;
+}
+.pageChange .active p{
+    color: white;
+}

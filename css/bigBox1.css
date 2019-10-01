@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #bd070b;
+}
+
+.bigBox1 {
+    background-color: white;
+    height: 1260px;
+}
+
+.modle01 {
+    position: relative;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.modle01 .articleList {
+    position: absolute;
+    width: 416px;
+    left: 730px;
+}
+
+.modle01 .articleList .title {
+    height: 55px;
+    line-height: 55px;
+    background: url(../img/title01_03.png) no-repeat #ff9e1b;
+    overflow: hidden;
+}
+
+.modle01 .articleList h2 {
+    height: 44px;
+    line-height: 44px;
+    width: auto;
+    float: left;
+    margin: 11px 0 0 60px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle01 .articleList .title a {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin: 20px 9px 0 0;
+    color: #ffffff;
+}
+
+.modle01 .articleList .title a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle01 .articleList ul {
+    padding: 8px 13px 14px 19px;
+    border: 1px solid #e6aaab;
+    border-top: none;
+    background: #faf7f7;
+    overflow: hidden;
+}
+
+.modle01 .articleList ul li {
+    overflow: hidden;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 0 0 11px;
+    background: url(../img/li_03.png) no-repeat left center;
+    vertical-align: middle;
+}
+
+.modle01 .articleList ul li span {
+    float: right;
+    color: #999999;
+    margin: 0 0 0 10px;
+    font-family: "Arial";
+}
+
+
+.modle01 .container {
+    position: relative;
+    box-sizing: border-box;
+    position: absolute;
+    height: 330px;
+    width: 700px;
+    top: 30px;
+    left: 5px;
+    overflow: hidden;
+    background-color: #ff9e1b;
+}
+
+.modle01 .container .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 3500px;
+    height: 100%;
+    display: flex;
+}
+
+.modle01 .container .wrapper .slider {
+    box-sizing: border-box;
+    width: 700px;
+    height: 100%;
+}
+
+.modle01 .container .wrapper div:nth-child(1) {
+    background-color: #999999
+}
+
+.modle01 .container .wrapper div:nth-child(2) {
+    background-color: #b12b2b
+}
+
+.modle01 .container .wrapper div:nth-child(3) {
+    background-color: #65e013
+}
+
+.modle01 .container .wrapper div:nth-child(4) {
+    background-color: #0ea4be
+}
+
+.modle01 .container .wrapper div:nth-child(5) {
+    background-color: #999999
+}
+
+.pagenition {
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, .1);
+    font-size: 0;
+}
+
+.pagenition li {
+    display: inline-block;
+    margin: 0 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.pagenition li.active {
+    background: red;
+}
+
+/* modle02 */
+.modle02 {
+    position: relative;
+    width: 1150px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+    top: 400px;
+}
+
+.modle02 .articleList {
+    position: absolute;
+    width: 550px;
+    left: 10px;
+}
+
+.modle02 .articleList .title {
+    height: 60px;
+    line-height: 60px;
+    background: url(../img/title02.png) no-repeat;
+    overflow: hidden;
+}
+
+.modle02 .articleList h2 {
+    height: 40px;
+    line-height: 40 px;
+    width: auto;
+    float: left;
+    margin: 10px 0 0 60px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle02 .articleList .title a {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin: 25px 9px 0 0;
+    color: #ffffff;
+}
+
+.modle02 .articleList .title a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle02 .articleList ul {
+    padding: 8px 13px 14px 19px;
+    border: 1px solid #e6aaab;
+    border-top: none;
+    background: #faf7f7;
+    overflow: hidden;
+}
+
+.modle02 .articleList ul li {
+    overflow: hidden;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 0 0 11px;
+    background: url(../img/li_03.png) no-repeat left center;
+    vertical-align: middle;
+}
+
+.modle02 .articleList ul li span {
+    float: right;
+    color: #999999;
+    margin: 0 0 0 10px;
+    font-family: "Arial";
+}
+
+
+
+
+
+.modle02 .articleList1 {
+    position: absolute;
+    width: 550px;
+    left: 590px;
+}
+
+.modle02 .articleList1 .title {
+    height: 60px;
+    line-height: 60px;
+    background: url(../img/title03.png) no-repeat;
+    overflow: hidden;
+}
+
+.modle02 .articleList1 h2 {
+    height: 40px;
+    line-height: 40 px;
+    width: auto;
+    float: left;
+    margin: 10px 0 0 60px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle02 .articleList1 .title a {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin: 25px 9px 0 0;
+    color: #ffffff;
+}
+
+.modle02 .articleList1 .title a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modle02 .articleList1 ul {
+    padding: 8px 13px 14px 19px;
+    border: 1px solid #e6aaab;
+    border-top: none;
+    background: #faf7f7;
+    overflow: hidden;
+}
+
+.modle02 .articleList1 ul li {
+    overflow: hidden;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 0 0 11px;
+    background: url(../img/li_03.png) no-repeat left center;
+    vertical-align: middle;
+}
+
+.modle02 .articleList1 ul li span {
+    float: right;
+    color: #999999;
+    margin: 0 0 0 10px;
+    font-family: "Arial";
+}
+
+
+
+
+.modle03 {
+    position: relative;
+    width: 1100px;
+    height: 380px;
+    margin: 0 auto;
+    border: 1px solid red;
+    top: 230px;
+    padding: 10px 20px;
+}
+
+.articleList04 .rticleList_image_title {
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #c4080f;
+}
+
+
+.articleList04 .rticleList_image_title h2 {
+    width: auto;
+    float: left;
+    font-size: 22px;
+    color: #bd070b;
+}
+
+
+.articleList04 .rticleList_image_title a {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    color: #999999;
+}
+.articleList04 .rticleList_image_title a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.articleList04 {
+    overflow: hidden;
+}
+
+.articleList04 ul {
+    margin: 20px -15px 5px -15px;
+    overflow: hidden;
+}
+
+.articleList04 ul li {
+    width: 33.3%;
+    height: 340px;
+    float: left;
+}
+
+.articleList04 ul li a {
+    display: block;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.articleList04 ul li a .art-Img {
+    display: block;
+    height: 0;
+    padding-bottom: 56%;
+    border: #cccccc 1px solid;
+    overflow: hidden;
+}
+
+.articleList04 ul li a .art-Text {
+    display: block;
+    overflow: hidden;
+}
+
+.articleList04 ul li a .art-Text h3 {
+    font-size: 14px;
+    margin: 14px 0 10px 0;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.articleList04 ul li a .art-Text p {
+    font-size: 14px;
+    color: #999;
+    display: block;
+    height: 66px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.articleList04 ul li a .art-Img img {
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.articleList04 ul li a:hover .art-Img img {
+    transform: scale(1.1);
+}
